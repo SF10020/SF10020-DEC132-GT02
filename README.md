@@ -2,12 +2,6 @@
 
 Este repositorio contiene los ejercicios de la quinta actividad evaluada, elaborados en lenguaje ensamblador x86 para arquitectura de 32 bits en Linux (WSL/Ubuntu).
 
-## Índice
-
-- [Resta de tres enteros (16 bits)](https://github.com/SF10020/SF10020-DEC132-GT02/tree/main/Ejercicio-1)
-- [Multiplicación de dos enteros (8 bits)](https://github.com/SF10020/SF10020-DEC132-GT02/tree/main/Ejercicio-2)
-- [División de dos enteros (32 bits)](https://github.com/SF10020/SF10020-DEC132-GT02/tree/main/Ejercicio-3)
-
 ---
 
 ## Ejercicio 1 - Resta de tres enteros (16 bits)
@@ -27,6 +21,8 @@ nasm -f elf32 resta_tres.asm -o resta_tres.o
 ld -m elf_i386 resta_tres.o -o resta_tres
 ./resta_tres
 ```
+
+- [Resta de tres enteros (16 bits)](https://github.com/SF10020/SF10020-DEC132-GT02/tree/main/Ejercicio-1)
 
 ---
 
@@ -48,6 +44,8 @@ ld -m elf_i386 multiplicacion_8bits.o -o multiplicacion_8bits
 ./multiplicacion_8bits
 ```
 
+- [Multiplicación de dos enteros (8 bits)](https://github.com/SF10020/SF10020-DEC132-GT02/tree/main/Ejercicio-2)
+
 ---
 
 ## Ejercicio 3 - División de dos enteros (32 bits)
@@ -68,6 +66,8 @@ nasm -f elf32 division_32bits.asm -o division_32bits.o
 ld -m elf_i386 division_32bits.o -o division_32bits
 ./division_32bits
 ```
+
+- [División de dos enteros (32 bits)](https://github.com/SF10020/SF10020-DEC132-GT02/tree/main/Ejercicio-3)
 
 ---
 
